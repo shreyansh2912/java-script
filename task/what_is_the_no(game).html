@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing the number</title>
+</head>
+<script>
+    alert("Do you want to play guess the number game 🙂");
+    alert("Guess any number");
+    alert("Add 5 in your Number");
+    alert("After adding 5 multiply your number with 5");
+    alert("after adding and multiplication again multiply your number with 2");
+    alert("guess the number between 1 to 9 and add in your Total");
+    do{
+        var  total = window.prompt("Enter your Total here");
+    }
+    while(total !== null && total === "" )
+    var total = total.slice(0,total.length -1);
+    var total = total-5;
+
+    if(total !== Number){
+        alert("Your number is:" +total);
+    }
+    else if(total !== NaN){
+        alert("please enter number only!");
+    }
+
+</script>
+<style>
+    h1{
+        /* height: 500px;
+        width: 300px;
+        color: aliceblue;
+        background-color: crimson; */
+    }
+    .box{
+        height: 200px;
+        width: 300px;
+        margin-left: 500px;
+        padding: 50px auto ;
+        text-align: center;
+        color: aliceblue;
+        background-color: crimson;
+    }
+</style>
+<body>  
+    <form action="" method="post">
+        Do you want to try again! 
+        <button type="submit" >Try Again</button><hr>
+    </form>
+    <div class="box">
+        <script>document.write("Your number is:"+"<hr>"+"<h1>" + total +"</h1>" );</script>
+    </div>
+</body>
+</html>
+
