@@ -103,10 +103,7 @@ console.log(instructor);
 
 // navbar(company = "Shreyansh")   
 
-{
-    "name": "Shreyansh",
-    "courseName": "js"
-}
+
 
 [
     {},
