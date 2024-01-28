@@ -17,6 +17,8 @@ const bigInt = 9316544n
 
 console.log(typeof bigInt);
 
+console.log(typeof number);
+
 //Reference type (Non primitive)
 
 //Array, Object, Functions
@@ -41,6 +43,8 @@ console.log(typeof data);
 //**********************************************************************************
 
 //Stack (primitive), Heap (Non-primitive)
+
+
 
 let name = "Shreyansh";
 

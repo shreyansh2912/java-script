@@ -3,7 +3,7 @@ const repoCount = 12
 
 // console.log(name + repoCount + "value" )
 
-console.log(`HEllo mt name is ${name} and my repo is ${repoCount} `);
+console.log(`HEllo my name is ${name} and my repocount is ${repoCount} `);
 
 const gameName = new String("Hello World ")
 const gameName2 = new String("Hello World")
@@ -50,9 +50,10 @@ console.log(gameName.localeCompare(gameName2));
 console.log(gameName.match(gameName2));
 console.log(found1[0]);
 
-const num = '\u0041\u006d\u00e9\u006c\u0069\u0065';
-const num1 = '\u0041\u006d\u0065\u0301\u006c\u0069\u0065';
+const num = '\u0041\u006d\u00e9\u006c\u0069\u0065';  //'Amélie'
+const num1 = '\u0041\u006d\u0065\u0301\u006c\u0069\u0065'; //'Amélie'
 
+console.table([num,num1]);
 console.log(num === num1);  //false
 
 const numNFC = num.normalize('NFC')
