@@ -7,7 +7,7 @@ console.log(myHeros[1]);
 //array methods
 
 myHeros.push("Captain America")//it's add a value at last index
-myHeros.unshift("Captain America")//it-s add a value at zero index
+myHeros.unshift("Captain America")//it's add a value at zero index
 myHeros.shift()//it removes value from zero index
 
 

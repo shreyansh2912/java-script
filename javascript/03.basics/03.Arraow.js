@@ -38,3 +38,7 @@ tea()
 const addtwo = (num1,num2)=> {username:"Shreyansh"}
 
 console.log(addtwo(5,10))  
+
+const myArray = [2,3,4,5]
+
+// myArray.forEach(function())
