@@ -1,5 +1,5 @@
-"use strict"; // treat all js cod eas newer version
-//alert("hello") // we are using node js not browser
+"use strict"; // treat all js codebas newer version
+// alert("hello") // we are using node js not browser
 
 let name ="shreyansh" //string
 let age = 20 //number => 2 to power 53
